@@ -1,0 +1,49 @@
+crp-county-analysis/
+├── app.R                   
+├── crp-county-analysis.Rproj  
+├── R/                      
+│   ├── global.R            
+│   ├── ui/
+│   │   ├── ui_home.R       
+│   │   ├── ui_acres.R      
+│   │   ├── ui_practices.R  
+│   │   ├── ui_expiration.R 
+│   ├── server/
+│   │   ├── server_home.R       
+│   │   ├── server_acres.R      
+│   │   ├── server_practices.R  
+│   │   ├── server_expiration.R 
+│   ├── data/
+│   │   ├── load_crp_data.R     
+│   │   ├── load_spatial_data.R 
+│   │   ├── load_soils_data.R   
+│   │   ├── load_dem_data.R     
+│   │   ├── load_climate_data.R 
+│   ├── utils/
+│   │   ├── helpers.R           
+├── data/                   
+│   ├── processed/
+│   ├── raw/
+│   │   ├── CRPHistoryCounty86-24-acres.csv
+│   │   ├── CRPPracticesbyCountyJAN24.csv
+│   │   ├── EXPIRECOUNTY.csv
+│   ├── spatial/
+│   │   ├── kansas-counties.geojson
+├── docs/                   
+├── figures/                
+│   ├── static_maps/
+├── README.md               
+├── reports/                
+├── requirements.txt        
+├── rsconnect/              
+├── shinyapps.io/           
+│   ├── carbon-crp-lands/
+│   │   ├── crp-county-analysis.dcf
+├── scripts/                
+├── structure/              
+│   ├── KSU and TNC Carbon Storage
+├── www/                    
+│   ├── styles.css          
+│   ├── ksu-purple.svg    
+│   ├── logoevergy.png
+│   ├── tnc-logo-primary-registered-dark-text.svg

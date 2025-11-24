@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F5F5F5;
+  color: #333333;
+}
+.navbar {
+  background-color: #512888;
+  color: #FFFFFF;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.tab-panel {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+.nav-tabs > li > a {
+  background-color: #7B5AA6;
+  color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  margin-right: 2px;
+}
+.nav-tabs > li.active > a {
+  background-color: #512888;
+  color: #FFFFFF;
+  border: none;
+}
+.sidebar {
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.well {
+  background-color: #F5F5F5;
+  border: none;
+  box-shadow: none;
+}
+h3 {
+  color: #512888;
+  font-weight: bold;
+}
+.leaflet-container {
+  border: 1px solid #512888;
+  border-radius: 5px;
+}
+select, input {
+  border: 1px solid #512888;
+  border-radius: 4px;
+  padding: 5px;
+}
+.download-btn {
+  background-color: #512888;
+  color: #FFFFFF;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.value-box {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  flex: 1 1 18%;
+  min-width: 200px;
+  max-width: 250px;
+  min-height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.value-box .icon {
+  font-size: 2.5vw;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+.value-box .content {
+  text-align: left;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.value-box h3 {
+  font-size: 1.8vw;
+  font-weight: bold;
+  margin: 0;
+  word-wrap: break-word;
+}
+.value-box p {
+  font-size: 1vw;
+  margin: 0;
+  word-wrap: break-word;
+}
+#total_acres_1986 .value-box {background-color: #D8BFD8;}
+#total_acres_2024 .value-box {background-color: #C6A9C6;}
+#year_max_acres .value-box {background-color: #826492;}
+#year_min_acres .value-box {background-color: #826492;}
+#total_counties .value-box {background-color: #6A5ACD;}
+#most_common_practice .value-box {background-color: #9370DB;}
+.summary-container {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.project-container {
+  background-color: #fff;
+  padding: 15px;
+  border-left: 5px solid #D8BFD8;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.project-content {
+  padding: 15px;
+}
+@media (max-width: 768px) {
+  .value-box {
+    flex: 1 1 45%;
+    max-width: 48%;
+    min-width: 0;
+  }
+  .value-box .icon {
+    font-size: 4vw;
+  }
+  .value-box h3 {
+    font-size: 2.5vw;
+  }
+  .value-box p {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 480px) {
+  .value-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+  .value-box .icon {
+    font-size: 6vw;
+  }
+  .value-box h3 {
+    font-size: 4vw;
+  }
+  .value-box p {
+    font-size: 2vw;
+  }
+}
