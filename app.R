@@ -1,7 +1,5 @@
 # ====================================================================
 #  Project:        CRPs in Kansas
-#  Description:    <Breve descripción del propósito del script>
-#
 #  Author:         Luciana Nieto PhD
 #  Organization:   Kansas State University 
 #  Created:        2025-02-17
