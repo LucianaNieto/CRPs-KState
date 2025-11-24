@@ -17,12 +17,9 @@ This project explores and visualizes data from the USDA’s Conservation Reserve
 - `reports/`: final technical documents and reports
 - `resources/`: supporting documents about CRP program from FSA website 
 
-## Tools
-
-This project uses:
-
-
 
 ## more about CRPs
 https://www.fsa.usda.gov/resources/programs/conservation-reserve-program/practices-library
 https://www.fsa.usda.gov/tools/informational/reports/conservation-statistics/crp
+
+## To access the full list of soil vectors and weather contact Luciana at luciananieto@icloud.com 
